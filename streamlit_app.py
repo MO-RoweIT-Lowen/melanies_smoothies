@@ -28,7 +28,7 @@ my_dataframe = session.table('SMOOTHIES.PUBLIC.FRUIT_OPTIONS').select(col('FRUIT
 #st.stop()
 
 pd_df=my_dataframe.to_pandas()
-st.data_frame(pd_df)
+st.data_frame(pd_d )
 st.stop
 
 ingredients_list = st.multiselect(
